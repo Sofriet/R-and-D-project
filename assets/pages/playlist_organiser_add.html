@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" , id="htmlID">
+
+<head>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body id="bodyID" class="darkbg">
+    <header id="head">
+        <div class="option" id="close">&#x2716;</div>
+        <div class="option" id="maximize">&#x1f5d6;</div>
+        <div class="option" id="minimize">&#x1f5d5;</div>
+    </header>
+    <div class="content">
+        <div class="stickytop">
+            <i class="fa fa-search" id="searchTitle"></i>
+            <input type="text" name="Song" class="Songtitle Input" id="searchInputSong" placeholder="songtitle">
+            <i class="fa fa-search" id="searchArtist"></i>
+            <input type="text" name="Song" class="Input" id="searchInputArtist" placeholder="artist">
+            <button onclick="org_playlist_page()" class="button_bg">to Playlist</button>
+            <button onclick="logout()" class="symbol logout"><i class="fa fa-sign-out"></i></button>
+        </div>
+
+        <div id="display_songs"></div>
+    </div>
+
+    <footer>
+        <script src="../js/header.js"></script>
+        <script src="../js/logout.js"></script>
+        <script src="../js/org_playlist_add.js"></script>
+    </footer>
+</body>
+
+</html>

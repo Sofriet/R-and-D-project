@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body class="LoginAndRegisterScreen">
+    <header id="head">
+        <div class="option" id="close">&#x2716;</div>
+        <div class="option" id="maximize">&#x1f5d6;</div>
+        <div class="option" id="minimize">&#x1f5d5;</div>
+    </header>
+
+    <div class="content margin_from_top">
+        <div><input type="text" name="Login" class="Input" id="username" placeholder="Username"></div>
+        <div><input type="password" name="Login" class="Input" id="password" placeholder="Password"></div>
+
+        <div id="buttonColumn">
+            <div><button onclick="register_user(0)" id="registerButton">Register</button></div>
+            <div><button onclick="redirect_home_page()" id="cancelButton">Cancel</button></div>
+            <div>
+                <h2 id="successMessage"></h2>
+            </div>
+            <div><button onclick="redirect_home_page()" id="continueButton">Continue</button></div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="../js/header.js "></script>
+        <script src="../js/register.js "></script>
+    </footer>
+</body>
+
+</html>
