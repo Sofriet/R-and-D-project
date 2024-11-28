@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body class="LoginAndRegisterScreen">
+    <header id="head">
+        <div class="option" id="close">&#x2716;</div>
+        <div class="option" id="maximize">&#x1f5d6;</div>
+        <div class="option" id="minimize">&#x1f5d5;</div>
+    </header>
+    <div class="content margin_from_top">
+        <div>
+            <input type="text" name="Login" class="Input" id="username" placeholder="Username">
+        </div>
+        <div>
+            <input type="password" name="Login" class="Input" id="password" placeholder="Password">
+        </div>
+        <div>
+            <input type="text" name="Login" class="Input" id="idnumber" placeholder="IDnumber">
+        </div>
+        <div>
+            <h2 id="invalid_id"></h2>
+        </div>
+        <div id="buttonColumn">
+            <div>
+                <button id="login_button" onclick="login()">Login</button>
+            </div>
+            <div>
+                <button id="register_user" onclick="register_user_page()">Sign Up as User</button>
+            </div>
+            <div>
+                <button id="register_org" onclick="register_org_page()">Sign Up as Organiser</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <script src="./assets/js/header.js"></script>
+        <script src="./assets/js/login.js"></script>
+        <script src="./assets/js/register.js"></script>
+    </footer>
+</body>
+
+</html>
