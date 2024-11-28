@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.content button :not(.fa) {
+    background-color: rgb(40, 40, 40);
+    color: rgb(226, 226, 226);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.content .stickytop i {
+    font-size: 30px;
+}
+
+.button_bg {
+    background-color: rgb(40, 40, 40);
+    color: rgb(226, 226, 226);
+}
+
+#buttonColumn button {
+    background-color: rgb(40, 40, 40);
+    color: rgb(226, 226, 226);
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+.content {
+    color: rgb(226, 226, 226);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.margin_from_top {
+    margin-top: 50px;
+}
+
+.darkbg {
+    background-color: rgb(40, 40, 40);
+}
+
+h1 {
+    font-size: 50px;
+    text-shadow: 2px 2px magenta;
+}
+
+.stickytop {
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    padding-top: 1%;
+    margin: 0;
+    margin-bottom: 30px;
+    padding-bottom: 40px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-style: solid;
+    border-color: rgb(72, 72, 72);
+    border-width: 5px;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+#MusicNote {
+    width: auto;
+    max-height: 120px;
+    position: relative;
+    bottom: inherit;
+    margin-left: 10px;
+    margin-right: 20px;
+    float: left;
+    margin-top: 0px;
+    border-radius: 10%;
+}
+
+.song h2 {
+    padding-top: 7px;
+    text-align: left;
+    vertical-align: middle;
+    margin-top: 0px;
+}
+
+.song h3 {
+    text-align: left;
+    vertical-align: middle;
+    margin-bottom: 20px;
+}
+
+.song {
+    height: 120px;
+    margin-top: 0px;
+    margin-bottom: 10px;
+}
+
+button:hover {
+    border-color: turquoise;
+    transition: 1s;
+}
+
+button {
+    font-size: 30px;
+    border-radius: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 2px;
+}
+
+.Input {
+    background-color: rgb(226, 226, 226);
+    color: rgb(40, 40, 40);
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 30px;
+}
+
+#Search {
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+#invalid_id {
+    margin-top: 10px;
+}
+
+.fa.fa-trash-o:hover,
+.addButton:hover,
+.fa.fa-sign-out:hover,
+.voteButton:hover,
+.addButton:hover {
+    color: turquoise;
+    transition: 1s;
+}
+
+.fa.fa-sign-out {
+    background-color: transparent;
+}
+
+.fa.fa-search {
+    color: rgb(87, 87, 87);
+    position: relative;
+    background-color: rgb(226, 226, 226);
+}
+
+#searchTitle {
+    left: 90px;
+    z-index: 1;
+}
+
+#searchTitleOne {
+    left: 50px;
+    z-index: 1;
+}
+
+#searchArtist {
+    left: 50px;
+    margin-left: 20px;
+}
+
+.Songtitle {
+    position: relative;
+    left: 40px;
+}
+
+.noborder {
+    border: none;
+    float: right;
+}
+
+.addButton,
+.fa.fa-trash-o,
+.voteButton {
+    color: rgb(226, 226, 226);
+    background-color: transparent;
+    border: none;
+    float: right;
+    font-size: 90px;
+    padding-right: 20px;
+    position: relative;
+    top: -50%;
+}
+
+.fa.fa-heart {
+    opacity: 0.6;
+    transition: 0.3s;
+}
+
+.fa.fa-heart-red {
+    color: red;
+}
+
+.fa.fa-heart-blue {
+    color: #A5F2F3;
+}
+
+.fa.fa-heart:hover {
+    opacity: 1;
+    font-size: 100px;
+    animation: 3s ease 0s infinite beat;
+}
+
+@keyframes beat {
+    0%,
+    50%,
+    100% {
+        transform: scale(1, 1);
+    }
+    30%,
+    80% {
+        transform: scale(0.92, 0.95);
+    }
+}
+
+.content .symbol {
+    background-color: transparent;
+    border: none;
+}
+
+.logout {
+    float: right;
+    margin-right: 20px;
+    font-size: 45px;
+    margin-top: 0;
+    background-color: rgb(40, 40, 40);
+    color: rgb(226, 226, 226);
+}
+
+.LoginAndRegisterScreen {
+    height: 100%;
+    background: linear-gradient(-45deg, #ae4323, #9f1147, #2432cc, #0c9681) no-repeat center fixed;
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.bgTransparent {
+    background-color: transparent;
+}
+
+#IDnumber {
+    color: rgb(40, 40, 40);
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 3px;
+}
+
+#changePlaylist {
+    border-radius: 20px;
+}
+
+.moveLeft {
+    position: relative;
+    right: 43px;
+}
+
+#successMessage {
+    color: rgb(226, 226, 226);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+
+/*Header Stuff*/
+
+#head {
+    position: sticky;
+}
+
+#head,
+.option {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+    background: #1f1f1f;
+    align-self: stretch;
+    -webkit-app-region: drag;
+}
+
+.option {
+    color: white;
+    padding: 10px 25px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    -webkit-app-region: no-drag;
+}
+
+.option:hover {
+    background-color: red;
+}
